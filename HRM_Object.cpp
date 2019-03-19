@@ -12,6 +12,32 @@ void HRM_Object::CreateInstance()
 
 void HRM_Object::DestroyInstance()
 {
+	if (m_inst_ref != NULL)
+	{
+		XPLMDestroyInstance(m_inst_ref);
+		m_inst_ref = NULL;
+	}
+
+	if (m_probe != NULL)
+	{
+		XPLMDestroyProbe(m_probe);
+		m_probe = NULL;
+	}
+
+	if (m_obj_ref != NULL)
+	{
+		XPLMUnloadObject(m_obj_ref);
+		m_obj_ref = NULL;
+	}
+
+}
+
+void HRM_Object::SetPositionCart(double zero_latitude, double zero_longitude, double zero_heading)
+{
+	m_zero_angle = atan2(m_dist_x, m_dist_y) * 180 / M_PI;
+	m_zero_distance = sqrt((m_dist_x * m_dist_x) + (m_dist_y * m_dist_y));
+	SetPosition(zero_latitude, zero_longitude, zero_heading);
+
 }
 
 void HRM_Object::SetPosition(double zero_latitude, double zero_longitude, double zero_heading)
@@ -107,11 +133,12 @@ void HRM_Object::GetDegreesPerMeter(double zero_latitude, double zero_longitude,
 
 }
 
-bool HRM_Object::LoadObject(std::string path)
+bool HRM_Object::LoadObject()
 {
-	HRMDebugString("Object Lookup Start: " + path);
+	HRMDebugString("Object Lookup Start: " + m_obj_path);
 
-	m_obj_path = path;
+	if (m_obj_ref || m_probe) DestroyInstance();
+
 	XPLMLookupObjects(m_obj_path.c_str(), 0, 0, load_cb, &m_obj_ref);
 
 	if (!m_obj_ref)

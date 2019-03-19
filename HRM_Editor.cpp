@@ -1,7 +1,6 @@
 #include "HRM_Editor.h"
 
-#include <boost/property_tree/ptree.hpp>
-#include <boost/property_tree/xml_parser.hpp>
+
 
 HRM_Editor::HRM_Editor() :
 	m_street_missions(),
@@ -25,6 +24,12 @@ void HRM_Editor::PluginStart()
 	
 
 	m_ds = XPLMGetDirectorySeparator();
+
+	char buffer[2048];
+	XPLMGetSystemPath(buffer);
+	m_system_path = buffer;
+
+	m_scenery_file = m_system_path + m_ds + "Resources" + m_ds + "plugins" + m_ds + "HRM_MissionEditor" + m_ds + "scenery_1.xml";
 
 	
 
@@ -122,6 +127,18 @@ void HRM_Editor::PluginDisable()
 	m_plugin_enabled = 0;
 }
 
+void HRM_Editor::UpdatePosition()
+{
+	m_ld_latitude = XPLMGetDatad(m_d_latitude);
+	m_ld_longitude = XPLMGetDatad(m_d_longitude);
+	m_lf_heading = XPLMGetDataf(m_f_heading);
+
+	for (auto p_mission : m_street_missions)	p_mission->SetPosition(m_ld_latitude, m_ld_longitude, m_lf_heading);
+	for (auto p_mission : m_urban_missions)	p_mission->SetPosition(m_ld_latitude, m_ld_longitude, m_lf_heading);
+	for (auto p_mission : m_sar_missions)	p_mission->SetPosition(m_ld_latitude, m_ld_longitude, m_lf_heading);
+	for (auto p_mission : m_sling_missions)	p_mission->SetPosition(m_ld_latitude, m_ld_longitude, m_lf_heading);
+}
+
 
 
 void HRM_Editor::PluginReceiveMessage(XPLMPluginID inFromWho, int inMessage, void * inParam)
@@ -179,6 +196,24 @@ void HRM_Editor::PluginMenuHandler(void * in_menu_ref, void * inItemRef)
 			//XPDestroyWidget(m_LogbookWidget, 1);
 		}
 	}
+}
+
+void HRM_Editor::SaveMissions()
+{
+
+	boost::property_tree::ptree pt;
+	int mission_counter = 0;
+
+	for (auto p_mission : m_street_missions)	p_mission->SaveMission(pt, mission_counter);
+	for (auto p_mission : m_urban_missions)		p_mission->SaveMission(pt, mission_counter);
+	for (auto p_mission : m_sar_missions)		p_mission->SaveMission(pt, mission_counter);
+	for (auto p_mission : m_sling_missions)		p_mission->SaveMission(pt, mission_counter);
+
+	boost::property_tree::write_xml(m_scenery_file, pt);
+}
+
+void HRM_Editor::LoadMissions()
+{
 }
 
 

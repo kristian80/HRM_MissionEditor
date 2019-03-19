@@ -38,6 +38,9 @@
 #define _USE_MATH_DEFINES
 #include <math.h>
 
+#include <boost/property_tree/ptree.hpp>
+#include <boost/property_tree/xml_parser.hpp>
+
 // OS X: we use this to convert our file path.
 #if APL
 #include <Carbon/Carbon.h>

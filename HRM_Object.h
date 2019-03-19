@@ -12,6 +12,9 @@ public:
 	double m_y = 0;
 	double m_z = 0;
 
+	double m_dist_x = 0;
+	double m_dist_y = 0;
+
 	double m_heading = 0;
 	double m_pitch = 0;
 	double m_roll = 0;
@@ -21,7 +24,7 @@ public:
 
 	float m_angle = 0;
 
-	std::string m_obj_path;
+	std::string m_obj_path = "3D_people_library/commercial_pilot.obj";
 
 	XPLMObjectRef m_obj_ref = NULL;
 	XPLMInstanceRef m_inst_ref = NULL;
@@ -29,11 +32,12 @@ public:
 
 	void CreateInstance();
 	void DestroyInstance();
+	void SetPositionCart(double zero_latitude, double zero_longitude, double zero_heading);
 	void SetPosition(double zero_latitude, double zero_longitude, double zero_heading);
 
 	static void GetDegreesPerMeter(double zero_latitude, double zero_longitude, double &meter_latitude, double &meter_longitude);
 
-	bool LoadObject(std::string path);
+	bool LoadObject();
 
 	HRM_Object();
 	~HRM_Object();

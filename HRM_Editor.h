@@ -14,6 +14,9 @@ public:
 
 	std::string m_ds = "";
 
+	std::string m_system_path = "";
+	std::string m_scenery_file = "";
+
 	std::shared_ptr<HRMImguiWidget> imguiPtr;
 
 	XPLMObjectRef m_obj_ref = NULL;
@@ -62,10 +65,15 @@ public:
 	void PluginEnable();
 	void PluginDisable();
 
+	void UpdatePosition();
+
 
 	void PluginReceiveMessage(XPLMPluginID inFrom, int inMsg, void * inParam);
 	//void IvyDrawOutputWindow(XPLMWindowID in_window_id, void * in_refcon);
 	void PluginMenuHandler(void * in_menu_ref, void * in_item_ref);
+
+	void SaveMissions();
+	void LoadMissions();
 
 	void PluginKeyCallback(XPLMWindowID inWindowID, char inKey, XPLMKeyFlags inFlags, char inVirtualKey, void * inRefcon, int losingFocus);
 	int PluginMouseClickCallback(XPLMWindowID inWindowID, int x, int y, XPLMMouseStatus inMouse, void * inRefcon);

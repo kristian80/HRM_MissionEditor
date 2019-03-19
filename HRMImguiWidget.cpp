@@ -60,7 +60,10 @@ void HRMImguiWidget::Visible(bool visible)
 
 void HRMImguiWidget::buildInterface()
 {
-	ImGui::Columns(5, 0, false);
+	win_width = ImGui::GetWindowWidth();
+	win_height = ImGui::GetWindowHeight();
+
+	ImGui::Columns(4, 0, false);
 
 	static std::vector<HRM_Mission *> *p_mission_vector = &(pHRM->m_street_missions);
 	static HRM_Mission * p_mission = NULL;
@@ -108,6 +111,8 @@ void HRMImguiWidget::buildInterface()
 			HRM_Mission *p_del = p_mission_vector->at(mission_listbox_item_current);
 			p_mission_vector->erase(p_mission_vector->begin() + mission_listbox_item_current);
 
+			p_del->RemoveMission();
+
 			delete p_del;
 			mission_listbox_item_current = 0;
 		}
@@ -120,6 +125,8 @@ void HRMImguiWidget::buildInterface()
 
 		p_mission_vector->push_back(p_new);
 
+		p_new->m_mission_type = selected_mission_type;
+
 	}
 
 	ImGui::NextColumn();
@@ -130,7 +137,105 @@ void HRMImguiWidget::buildInterface()
 		{
 			p_mission = p_mission_vector->at(mission_listbox_item_current);
 
-			ImGui::InputText("Mission Name", &(p_mission->m_name));
+			ImGui::InputText("M Name", &(p_mission->m_name));
+			ImGui::InputText("M Start", &(p_mission->m_start_text));
+			ImGui::InputText("M Pickup", &(p_mission->m_pickup_text));
+			ImGui::InputText("M End", &(p_mission->m_end_text));
+			ImGui::InputText("M Arr Failed", &(p_mission->m_failed_arr_text));
+			ImGui::InputText("M Hosp Failed", &(p_mission->m_failed_hosp_text));
+
+			ImGui::InputInt("S Start", &(p_mission->m_sound_start), 1, 1);
+			ImGui::InputInt("S Arr", &(p_mission->m_sound_arr), 1, 1);
+			ImGui::InputInt("S Pickup", &(p_mission->m_sound_pickup), 1, 1);
+			ImGui::InputInt("S End", &(p_mission->m_sound_end), 1, 1);
+			ImGui::InputInt("SF Arr", &(p_mission->m_sound_failed_arr), 1, 1);
+			ImGui::InputInt("SF Hosp", &(p_mission->m_sound_failed_hops), 1, 1);
+
+			ImGui::NextColumn();
+
+			const char* object_listbox_items[1024];
+
+			static int object_listbox_item_current = 0;
+
+
+			for (int index = 0; index < p_mission->m_object_vector.size(); index++)
+			{
+				object_listbox_items[index] = p_mission->m_object_vector.at(index)->m_obj_path.c_str();
+			}
+
+			ImGui::ListBox("Objects", &object_listbox_item_current, object_listbox_items, p_mission->m_object_vector.size(), 10);
+
+			if (ImGui::Button("Delete Object"))
+			{
+				HRM_Object *p_del = p_mission->m_object_vector.at(object_listbox_item_current);
+				p_mission->m_object_vector.erase(p_mission->m_object_vector.begin() + object_listbox_item_current);
+
+				p_del->DestroyInstance();
+
+				delete p_del;
+				object_listbox_item_current = 0;
+			}
+
+			if (ImGui::Button("New Object"))
+			{
+				HRM_Object *p_new = new HRM_Object();
+
+				p_mission->m_object_vector.push_back(p_new);
+
+				p_mission->RemoveMission();
+				p_mission->DrawMission();
+
+			}
+
+			if (ImGui::Button("Reset Position to ACF"))
+			{
+				pHRM->UpdatePosition();
+
+				p_mission->RemoveMission();
+				p_mission->DrawMission();
+			}
+
+			if (ImGui::Button("Redraw Mission"))
+			{
+				p_mission->RemoveMission();
+				p_mission->DrawMission();
+			}
+
+
+
+			ImGui::NextColumn();
+
+			if (object_listbox_item_current < p_mission->m_object_vector.size())
+			{
+
+				HRM_Object *p_HRM_obj = p_mission->m_object_vector.at(object_listbox_item_current);
+
+				if (p_HRM_obj)
+				{
+					
+					ImGui::InputText("O Path", &(p_HRM_obj->m_obj_path));
+
+					/*ImGui::InputDouble("Angle", &(p_HRM_obj->m_zero_angle), 1, 1, 0, 0);
+					ImGui::InputDouble("Dist", &(p_HRM_obj->m_zero_distance), 1, 1, 0, 0);*/
+
+					ImGui::InputDouble("X [m]:", &(p_HRM_obj->m_dist_x), 1, 1, 0, 0);
+					ImGui::InputDouble("Y [m]:", &(p_HRM_obj->m_dist_y), 1, 1, 0, 0);
+
+					ImGui::InputDouble("Elev", &(p_HRM_obj->m_elevation), 0.1, 0.1, 0, 0);
+
+					ImGui::InputDouble("Heading", &(p_HRM_obj->m_heading), 1, 1, 0, 0);
+					ImGui::InputDouble("Pitch", &(p_HRM_obj->m_pitch), 1, 1, 0, 0);
+					ImGui::InputDouble("Roll", &(p_HRM_obj->m_roll), 1, 1, 0, 0);
+
+					if (ImGui::Button("Set Pos", ImVec2(180, 20)))
+					{
+						p_HRM_obj->SetPositionCart(pHRM->m_ld_latitude, pHRM->m_ld_longitude, pHRM->m_lf_heading);
+					}
+
+				}
+			}
+
+
 		}
 	}
 	
