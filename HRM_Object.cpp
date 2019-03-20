@@ -133,6 +133,50 @@ void HRM_Object::GetDegreesPerMeter(double zero_latitude, double zero_longitude,
 
 }
 
+void HRM_Object::SaveObject(boost::property_tree::ptree & pt, std::string mission, int & object_counter)
+{
+	std::string object = mission + "object_" + std::to_string(object_counter) + ".";
+
+	pt.put(object + "obj_path", m_obj_path);
+	pt.put(object + "elevation", m_elevation);
+	pt.put(object + "dist_x", m_dist_x);
+	pt.put(object + "dist_y", m_dist_y);
+	pt.put(object + "heading", m_heading);
+	pt.put(object + "pitch", m_pitch);
+	pt.put(object + "roll", m_roll);
+	pt.put(object + "is_patient", m_is_patient);
+
+	object_counter++;
+}
+
+bool HRM_Object::ReadObject(boost::property_tree::ptree & pt, std::string mission, int & object_counter)
+{
+	std::string object = mission + "object_" + std::to_string(object_counter) + ".";
+
+	try { m_obj_path = pt.get<std::string>(object + "obj_path"); }
+	catch (...) { return false; }
+
+	try { m_elevation = pt.get<float>(object + "elevation"); }
+	catch (...) {}
+
+	try { m_dist_x = pt.get<float>(object + "dist_x"); }
+	catch (...) {}
+	try { m_dist_y = pt.get<float>(object + "dist_y"); }
+	catch (...) {}
+	try { m_heading = pt.get<float>(object + "heading"); }
+	catch (...) {}
+	try { m_pitch = pt.get<float>(object + "pitch"); }
+	catch (...) {}
+	try { m_roll = pt.get<float>(object + "roll"); }
+	catch (...) {}
+	try { m_is_patient = pt.get<bool>(object + "is_patient"); }
+	catch (...) {}
+
+	object_counter++;
+
+	return true;
+}
+
 bool HRM_Object::LoadObject()
 {
 	HRMDebugString("Object Lookup Start: " + m_obj_path);

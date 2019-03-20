@@ -201,6 +201,8 @@ void HRM_Editor::PluginMenuHandler(void * in_menu_ref, void * inItemRef)
 void HRM_Editor::SaveMissions()
 {
 
+	boost::property_tree::xml_writer_settings<char> settings(' ', 4);
+
 	boost::property_tree::ptree pt;
 	int mission_counter = 0;
 
@@ -209,11 +211,24 @@ void HRM_Editor::SaveMissions()
 	for (auto p_mission : m_sar_missions)		p_mission->SaveMission(pt, mission_counter);
 	for (auto p_mission : m_sling_missions)		p_mission->SaveMission(pt, mission_counter);
 
-	boost::property_tree::write_xml(m_scenery_file, pt);
+	boost::property_tree::write_xml(m_scenery_file, pt, std::locale(), settings);
 }
 
 void HRM_Editor::LoadMissions()
 {
+	boost::property_tree::ptree pt;
+	try
+	{
+		boost::property_tree::read_xml(m_scenery_file, pt);
+	}
+	catch (...)
+	{
+		HRMDebugString("Could not open XML");
+		return;
+	}
+
+	int mission_counter = 0;
+
 }
 
 

@@ -38,6 +38,7 @@ public:
 	void DrawMission(void);
 
 	void SaveMission(boost::property_tree::ptree &pt, int &mission_counter);
+	bool ReadMission(boost::property_tree::ptree &pt, int &mission_counter);
 
 };
 

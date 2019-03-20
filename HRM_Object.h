@@ -6,6 +6,7 @@ class HRM_Object
 public:
 	double m_latitude = -10000;
 	double m_longitude = -10000;
+	
 	double m_elevation = 0;
 
 	double m_x = 0;
@@ -24,6 +25,8 @@ public:
 
 	float m_angle = 0;
 
+	bool m_is_patient = false;
+
 	std::string m_obj_path = "3D_people_library/commercial_pilot.obj";
 
 	XPLMObjectRef m_obj_ref = NULL;
@@ -36,6 +39,9 @@ public:
 	void SetPosition(double zero_latitude, double zero_longitude, double zero_heading);
 
 	static void GetDegreesPerMeter(double zero_latitude, double zero_longitude, double &meter_latitude, double &meter_longitude);
+
+	void SaveObject(boost::property_tree::ptree &pt, std::string mission, int &object_counter);
+	bool ReadObject(boost::property_tree::ptree &pt, std::string mission, int &object_counter);
 
 	bool LoadObject();
 

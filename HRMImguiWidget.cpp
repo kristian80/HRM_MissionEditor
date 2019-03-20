@@ -63,12 +63,16 @@ void HRMImguiWidget::buildInterface()
 	win_width = ImGui::GetWindowWidth();
 	win_height = ImGui::GetWindowHeight();
 
+	
+
 	ImGui::Columns(4, 0, false);
 
 	static std::vector<HRM_Mission *> *p_mission_vector = &(pHRM->m_street_missions);
 	static HRM_Mission * p_mission = NULL;
+	static HRM_Mission * p_mission_old = NULL;
 	static int selected_mission_type = 0;
 	static int mission_listbox_item_current = 0;
+
 
 	if (ImGui::RadioButton("Street Missions", selected_mission_type == 0))
 	{
@@ -129,6 +133,12 @@ void HRMImguiWidget::buildInterface()
 
 	}
 
+	if (ImGui::Button("Save ALL"))
+	{
+		pHRM->SaveMissions();
+
+	}
+
 	ImGui::NextColumn();
 
 	if (p_mission_vector->size() > 0)
@@ -136,6 +146,9 @@ void HRMImguiWidget::buildInterface()
 		if (mission_listbox_item_current < p_mission_vector->size())
 		{
 			p_mission = p_mission_vector->at(mission_listbox_item_current);
+
+			if ((p_mission != p_mission_old) && (p_mission_old != NULL)) p_mission_old->RemoveMission();
+			p_mission_old = p_mission;
 
 			ImGui::InputText("M Name", &(p_mission->m_name));
 			ImGui::InputText("M Start", &(p_mission->m_start_text));
