@@ -21,6 +21,7 @@ public:
 	int m_scenery_number = 1;
 
 	HRM_Mission *mp_current_mission = NULL;
+	HRM_Mission *mp_last_mission = NULL;
 
 	std::shared_ptr<HRMImguiWidget> imguiPtr;
 

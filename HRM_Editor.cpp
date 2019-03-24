@@ -273,8 +273,10 @@ int HRM_Editor::PluginMouseClickCallback(XPLMWindowID inWindowID, int x, int y, 
 float HRM_Editor::PluginFlightLoopCallback(float elapsedMe, float elapsedSim, int counter, void * refcon)
 {
 	if (mp_current_mission != NULL) mp_current_mission->SetObjectPosition();
-	
+	if ((mp_last_mission != NULL) && (mp_current_mission != mp_last_mission)) mp_last_mission->RemoveMission();
 
+
+	mp_last_mission = mp_current_mission;
 	return m_data_rate;
 }
 
