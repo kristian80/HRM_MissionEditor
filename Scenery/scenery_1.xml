@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission_0>
+    <name>Frontal Crash</name>
+    <type>0</type>
+    <start_text>Frontal car crash in the country site. The fire fighters are already on site and reported one person to be seriously injured.</start_text>
+    <pickup_text>The patient is on board and we are on our way to the hospital. We should go as quickly, but also as smoothly as possible to ensure our patient is alright</pickup_text>
+    <flight2_text>The patient is on board and we are on our way to the hospital. We should go as quickly, but also as smoothly as possible to ensure our patient is alright</flight2_text>
+    <failed_arr_text>We did not make it in time. At least we should pick up the corpse, the hospital pathologist is eager to see it and we still get some money from the insurance.</failed_arr_text>
+    <failed_hosp_text>Unfortunately, our patient did not make it. Let&apos;s drop the corpse at the hospital and leave the rest to the pathologist.</failed_hosp_text>
+    <end_text>The patient was handed over to the hospital surgeons.</end_text>
+    <sound_start>0</sound_start>
+    <sound_arr>0</sound_arr>
+    <sound_pickup>0</sound_pickup>
+    <sound_end>0</sound_end>
+    <sound_failed_arr>0</sound_failed_arr>
+    <sound_failed_hops>0</sound_failed_hops>
+    <object_0>
+        <obj_path>RescueX/cars/Crashed_CLK.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0.5</dist_x>
+        <dist_y>10</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_0>
+    <object_1>
+        <obj_path>RescueX/cars/Crashed_Kia_Picanto2.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0.5</dist_x>
+        <dist_y>7</dist_y>
+        <heading>190</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_1>
+    <object_2>
+        <obj_path>RescueX/cars/FW_BF_Karlsruhe_HLF.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>3</dist_x>
+        <dist_y>-5</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_2>
+    <object_3>
+        <obj_path>RescueX/objects/OBJ_Faltdreieck_Leuchte.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>4</dist_x>
+        <dist_y>-16</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_3>
+    <object_4>
+        <obj_path>RescueX/objects/OBJ_Faltdreieck_Leuchte.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-3</dist_x>
+        <dist_y>19</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_4>
+    <object_5>
+        <obj_path>CDB-Library/Peeps/airMarshall/peeps_AirMarshallM5_vigili.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-2</dist_x>
+        <dist_y>9</dist_y>
+        <heading>-97</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_5>
+    <object_6>
+        <obj_path>CDB-Library/Peeps/airMarshall/peeps_rarotonga_airmarshall2.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-2</dist_x>
+        <dist_y>6</dist_y>
+        <heading>-120</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_6>
+    <object_7>
+        <obj_path>CDB-Library/Peeps/airMarshall/peeps_rarotonga_airmarshall3.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-1</dist_x>
+        <dist_y>4</dist_y>
+        <heading>180</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_7>
+    <object_8>
+        <obj_path>CDB-Library/Peeps/airMarshall/peeps_fireman10.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-2</dist_x>
+        <dist_y>16</dist_y>
+        <heading>180</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_8>
+    <object_9>
+        <obj_path>CDB-Library/Cars/cars/Cadilac/car_cadillac1959.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-2</dist_x>
+        <dist_y>25</dist_y>
+        <heading>180</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_9>
+    <object_10>
+        <obj_path>3D_people_library/man_brown_top.obj</obj_path>
+        <elevation>0.2000000029802322</elevation>
+        <dist_x>-1</dist_x>
+        <dist_y>7</dist_y>
+        <heading>0</heading>
+        <pitch>-90</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+    </object_10>
+</mission_0>
+<mission_1>
+    <name>Heart Attack</name>
+    <type>1</type>
+    <start_text>We got a call from a little girl that her mommy got an heart attack after opening a letter from the medevac center. An ambulance is also on the way, but as we hospital is quite some distance away they would prefer a helicopter transport.</start_text>
+    <pickup_text>The patient is on board and the doctor reported that she is stable enough for transportation. We are ready to go.</pickup_text>
+    <flight2_text>The patient is on board and we are on our way to the hospital. We should go as quickly, but also as smoothly as possible to ensure our patient is alright</flight2_text>
+    <failed_arr_text>We did not make it in time. At least we should pick up the corpse, the hospital pathologist is eager to see it and we still get some money from the insurance.</failed_arr_text>
+    <failed_hosp_text>Unfortunately, our patient did not make it. Let&apos;s drop the corpse at the hospital and leave the rest to the pathologist. </failed_hosp_text>
+    <end_text>The patient was handed over to the hospital surgeons.</end_text>
+    <sound_start>0</sound_start>
+    <sound_arr>0</sound_arr>
+    <sound_pickup>0</sound_pickup>
+    <sound_end>0</sound_end>
+    <sound_failed_arr>0</sound_failed_arr>
+    <sound_failed_hops>0</sound_failed_hops>
+    <object_0>
+        <obj_path>RescueX/objects/stretcher.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>1</dist_x>
+        <dist_y>18</dist_y>
+        <heading>90</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_0>
+    <object_1>
+        <obj_path>CDB-Library/Airport/GSE/ambulance/car_ambulance3.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>23</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_1>
+    <object_2>
+        <obj_path>3D_people_library/woman_purple_top.obj</obj_path>
+        <elevation>1.100000023841858</elevation>
+        <dist_x>1</dist_x>
+        <dist_y>17.20000076293945</dist_y>
+        <heading>0</heading>
+        <pitch>270</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+    </object_2>
+    <object_3>
+        <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp1.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0.5</dist_x>
+        <dist_y>18.5</dist_y>
+        <heading>280</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_3>
+    <object_4>
+        <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp3.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>1.700000047683716</dist_x>
+        <dist_y>19</dist_y>
+        <heading>55</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_4>
+    <object_5>
+        <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentM3.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>2</dist_x>
+        <dist_y>18</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_5>
+    <object_6>
+        <obj_path>3D_people_library/girl.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>2.299999952316284</dist_x>
+        <dist_y>17</dist_y>
+        <heading>-60</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_6>
+</mission_1>
+<mission_2>
+    <name>Car Crash - Crossing</name>
+    <type>1</type>
+    <start_text>Two cars crashed at a crossing in town, one person seriously injured. It is rush hour and we were called to transport the patient to the nearest hospital.</start_text>
+    <pickup_text>The patient is on board and the doctor reported that he is stable enough for transportation. We are ready to go.</pickup_text>
+    <flight2_text>The patient is on board and we are on our way to the hospital. We should go as quickly, but also as smoothly as possible to ensure our patient is alright</flight2_text>
+    <failed_arr_text>We did not make it in time, even though there was to rush hour stopping us. At least we should pick up the corpse, the hospital pathologist is eager to see it and we still get some money from the insurance.</failed_arr_text>
+    <failed_hosp_text>Unfortunately, our patient did not make it. Let&apos;s drop the corpse at the hospital. Did you know? The pathologist there always has the right diagnosis. Like us, he is always too late.</failed_hosp_text>
+    <end_text>The patient was handed over to the hospital surgeons. They looked worried, but hopefully he will make it.</end_text>
+    <sound_start>0</sound_start>
+    <sound_arr>0</sound_arr>
+    <sound_pickup>0</sound_pickup>
+    <sound_end>0</sound_end>
+    <sound_failed_arr>0</sound_failed_arr>
+    <sound_failed_hops>0</sound_failed_hops>
+    <object_0>
+        <obj_path>RescueX/cars/Crashed_Kia_Picanto2.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>1</dist_y>
+        <heading>-12</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_0>
+    <object_1>
+        <obj_path>RescueX/cars/Crashed_Opel_Insignia.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>1.8</dist_x>
+        <dist_y>-2</dist_y>
+        <heading>110</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_1>
+    <object_2>
+        <obj_path>RescueX/cars/NEF_Passat_sb1099_lit_open.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>7</dist_y>
+        <heading>33</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_2>
+    <object_3>
+        <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentM6.obj</obj_path>
+        <elevation>0.1</elevation>
+        <dist_x>2</dist_x>
+        <dist_y>4</dist_y>
+        <heading>45</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+    </object_3>
+    <object_4>
+        <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentM5.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0.5</dist_x>
+        <dist_y>3.5</dist_y>
+        <heading>282</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+    </object_4>
+    <object_5>
+        <obj_path>3D_people_library/man_standing_24.obj</obj_path>
+        <elevation>0.1</elevation>
+        <dist_x>1</dist_x>
+        <dist_y>4.7</dist_y>
+        <heading>141</heading>
+        <pitch>-90</pitch>
+        <roll>2</roll>
+        <is_patient>true</is_patient>
+    </object_5>
+    <object_6>
+        <obj_path>3D_people_library/policeman7.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>2.5</dist_x>
+        <dist_y>1</dist_y>
+        <heading>19</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_6>
+    <object_7>
+        <obj_path>3D_people_library/policeman_1_walking.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>7</dist_x>
+        <dist_y>0</dist_y>
+        <heading>96</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_7>
+    <object_8>
+        <obj_path>CDB-Library/Peeps/Botswana/botswaKalahariF.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>2.5</dist_x>
+        <dist_y>0</dist_y>
+        <heading>192</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_8>
+    <object_9>
+        <obj_path>RescueX/cars/Polizei_FuStw_01_lit_open.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>11</dist_x>
+        <dist_y>0</dist_y>
+        <heading>297</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_9>
+</mission_2>
+<mission_3>
+    <name>Girl Missing</name>
+    <type>2</type>
+    <start_text>Little Sarah ran away from home when she was how much math homework she got to do for the weekend. Her mother is sick with worries.</start_text>
+    <pickup_text>Sarah was pretty relieved that we found her, since she got lost did not find her way back home after she got hungry. She is a bit  dehydrated and we should bring her to the hospital as soon, but also as comfortable as possible. </pickup_text>
+    <flight2_text>The patient is on board and we are on our way to the hospital. We should go as quickly, but also as smoothly as possible to ensure our patient is alright</flight2_text>
+    <failed_arr_text>We did not make it in time. You were so slow that little Sarah got bored and finally made her math homework. Well, we should still drop her at the hospital, just to be sure. </failed_arr_text>
+    <failed_hosp_text>Little Sarah was pretty pissed off when she got out and said something about suing us for locking her into a chopper for half a day.</failed_hosp_text>
+    <end_text>We handed Sarah over to the hospital team, even though she already looked much better. She was pretty excited about the flight and said something about another chopper ride next week. Well, hopefully her mother does not get a heart attack when we send her the bill...</end_text>
+    <sound_start>0</sound_start>
+    <sound_arr>0</sound_arr>
+    <sound_pickup>0</sound_pickup>
+    <sound_end>0</sound_end>
+    <sound_failed_arr>0</sound_failed_arr>
+    <sound_failed_hops>0</sound_failed_hops>
+    <object_0>
+        <obj_path>3D_people_library/girl.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>5</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+    </object_0>
+</mission_3>
+<mission_4>
+    <name>Jeep Flipped</name>
+    <type>2</type>
+    <start_text>Jonny and Brad were on an off-road trip, when their jeep hit a rock and flipped to the side. Brad hit his head pretty hard and Jonny called us for help. </start_text>
+    <pickup_text>Brad is on board and the doctor said that it looks serious, we should bring him to the hospital as quickly as possible. Make sure that his situation does not get worse by flying as careful as possible.</pickup_text>
+    <flight2_text>The patient is on board and we are on our way to the hospital. We should go as quickly, but also as smoothly as possible to ensure our patient is alright</flight2_text>
+    <failed_arr_text>We did not make it in time. However, we cannot leave Bard up there and the hospital pathologist is already waiting for us. </failed_arr_text>
+    <failed_hosp_text>Unfortunately, Brad did not make it. Let&apos;s hand him over to the pathologist at the hospital and focus on our next mission.</failed_hosp_text>
+    <end_text>Brad is now in the hands of the hospital surgeons. Let&apos;s hope that he will make it.</end_text>
+    <sound_start>0</sound_start>
+    <sound_arr>0</sound_arr>
+    <sound_pickup>0</sound_pickup>
+    <sound_end>0</sound_end>
+    <sound_failed_arr>0</sound_failed_arr>
+    <sound_failed_hops>0</sound_failed_hops>
+    <object_0>
+        <obj_path>CDB-Library/Cars/cars/Jeep/car_jeep.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>8</dist_y>
+        <heading>0</heading>
+        <pitch>90</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_0>
+    <object_1>
+        <obj_path>3D_people_library/biker2.obj</obj_path>
+        <elevation>0.2000000029802322</elevation>
+        <dist_x>2</dist_x>
+        <dist_y>6</dist_y>
+        <heading>-244</heading>
+        <pitch>-90</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+    </object_1>
+    <object_2>
+        <obj_path>CDB-Library/Peeps/airMarshall/peeps_airstaff19.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>3.5</dist_x>
+        <dist_y>6.5</dist_y>
+        <heading>20</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+    </object_2>
+    <object_3>
+        <obj_path>CDB-Library/buildings/rocks/rock1.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>9</dist_x>
+        <dist_y>11</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_3>
+</mission_4>
