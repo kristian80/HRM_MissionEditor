@@ -10,6 +10,7 @@ HRM_Mission::HRM_Mission() :
 
 HRM_Mission::~HRM_Mission()
 {
+	//for (auto p_obj : m_object_vector) delete p_obj;
 }
 
 void HRM_Mission::SetPosition(double zero_latitude, double zero_longitude, double zero_heading)
@@ -17,6 +18,11 @@ void HRM_Mission::SetPosition(double zero_latitude, double zero_longitude, doubl
 	m_ld_latitude = zero_latitude;
 	m_ld_longitude = zero_longitude;
 	m_lf_heading = zero_heading;
+}
+
+void HRM_Mission::SetObjectPosition()
+{
+	for (auto p_obj : m_object_vector) p_obj->SetPositionCart(m_ld_latitude, m_ld_longitude, m_lf_heading);
 }
 
 void HRM_Mission::RemoveMission(void)
@@ -47,6 +53,7 @@ void HRM_Mission::SaveMission(boost::property_tree::ptree & pt, int & mission_co
 	pt.put(mission + "type", m_mission_type);
 	pt.put(mission + "start_text", m_start_text);
 	pt.put(mission + "pickup_text", m_pickup_text);
+	pt.put(mission + "flight2_text", m_flight2_text);
 	pt.put(mission + "failed_arr_text", m_failed_arr_text);
 	pt.put(mission + "failed_hosp_text", m_failed_hosp_text);
 	pt.put(mission + "end_text", m_end_text);
@@ -75,6 +82,8 @@ bool HRM_Mission::ReadMission(boost::property_tree::ptree & pt, int & mission_co
 	try { m_start_text = pt.get<std::string>(mission + "start_text"); }
 	catch (...) {}
 	try { m_pickup_text = pt.get<std::string>(mission + "pickup_text"); }
+	catch (...) {}
+	try { m_flight2_text = pt.get<std::string>(mission + "flight2_text"); }
 	catch (...) {}
 	try { m_failed_arr_text = pt.get<std::string>(mission + "failed_arr_text"); }
 	catch (...) {}
@@ -112,6 +121,6 @@ bool HRM_Mission::ReadMission(boost::property_tree::ptree & pt, int & mission_co
 
 	// try { = pt.get<>(mission + ""); }
 	// catch (...) {}
-
+	mission_counter++;
 	return true;
 }

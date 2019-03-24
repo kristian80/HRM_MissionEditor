@@ -153,6 +153,7 @@ void HRMImguiWidget::buildInterface()
 			ImGui::InputText("M Name", &(p_mission->m_name));
 			ImGui::InputText("M Start", &(p_mission->m_start_text));
 			ImGui::InputText("M Pickup", &(p_mission->m_pickup_text));
+			ImGui::InputText("M Flight2", &(p_mission->m_flight2_text));
 			ImGui::InputText("M End", &(p_mission->m_end_text));
 			ImGui::InputText("M Arr Failed", &(p_mission->m_failed_arr_text));
 			ImGui::InputText("M Hosp Failed", &(p_mission->m_failed_hosp_text));
