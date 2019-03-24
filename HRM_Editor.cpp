@@ -29,7 +29,8 @@ void HRM_Editor::PluginStart()
 	XPLMGetSystemPath(buffer);
 	m_system_path = buffer;
 
-	m_scenery_file = m_system_path + m_ds + "Resources" + m_ds + "plugins" + m_ds + "HRM_MissionEditor" + m_ds + "scenery_1.xml";
+	m_config_path = m_system_path + "Resources" + m_ds + "plugins" + m_ds + "HRM_MissionEditor" + m_ds;
+	m_scenery_file = m_config_path + "scenery";
 
 	
 
@@ -211,23 +212,49 @@ void HRM_Editor::SaveMissions()
 	for (auto p_mission : m_sar_missions)		p_mission->SaveMission(pt, mission_counter);
 	for (auto p_mission : m_sling_missions)		p_mission->SaveMission(pt, mission_counter);
 
-	boost::property_tree::write_xml(m_scenery_file, pt, std::locale(), settings);
+	boost::property_tree::write_xml(m_scenery_file + "_" + std::to_string(m_scenery_number) + ".xml", pt, std::locale(), settings);
 }
 
-void HRM_Editor::LoadMissions()
+void HRM_Editor::ReadMissions()
 {
+	int scenery_number = m_scenery_number;
+
+	
+	bool file_found = true;
 	boost::property_tree::ptree pt;
 	try
 	{
-		boost::property_tree::read_xml(m_scenery_file, pt);
+		boost::property_tree::read_xml(m_scenery_file + "_" + std::to_string(scenery_number) + ".xml", pt);
 	}
 	catch (...)
 	{
-		HRMDebugString("Could not open XML");
-		return;
+		file_found = false;
+		//return;
 	}
+	if (file_found)
+	{
+		int mission_counter = 0;
+		bool mission_created = true;
 
-	int mission_counter = 0;
+		while (mission_created)
+		{
+			HRM_Mission *p_mission = new HRM_Mission();
+
+			mission_created = p_mission->ReadMission(pt, mission_counter);
+
+			if (mission_created)
+			{
+				if (p_mission->m_mission_type == 0)				m_street_missions.push_back(p_mission);
+				else if (p_mission->m_mission_type == 1)		m_urban_missions.push_back(p_mission);
+				else if (p_mission->m_mission_type == 2)		m_sar_missions.push_back(p_mission);
+				else if (p_mission->m_mission_type == 3)		m_sling_missions.push_back(p_mission);
+				else delete p_mission;
+			}
+			else delete p_mission;
+
+		}
+	}
+	
 
 }
 
@@ -245,7 +272,7 @@ int HRM_Editor::PluginMouseClickCallback(XPLMWindowID inWindowID, int x, int y, 
 
 float HRM_Editor::PluginFlightLoopCallback(float elapsedMe, float elapsedSim, int counter, void * refcon)
 {
-	
+	if (mp_current_mission != NULL) mp_current_mission->SetObjectPosition();
 	
 
 	return m_data_rate;

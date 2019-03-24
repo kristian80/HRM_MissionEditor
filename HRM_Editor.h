@@ -16,6 +16,11 @@ public:
 
 	std::string m_system_path = "";
 	std::string m_scenery_file = "";
+	std::string m_config_path = "";
+
+	int m_scenery_number = 1;
+
+	HRM_Mission *mp_current_mission = NULL;
 
 	std::shared_ptr<HRMImguiWidget> imguiPtr;
 
@@ -35,7 +40,7 @@ public:
 	int m_plugin_enabled = 0;
 	int m_aircraft_loaded = 0;
 
-	float m_data_rate = 1;
+	float m_data_rate = 0.2;
 
 	//MyIvyConfiguration *m_ivyConfig = NULL;
 	
@@ -73,7 +78,7 @@ public:
 	void PluginMenuHandler(void * in_menu_ref, void * in_item_ref);
 
 	void SaveMissions();
-	void LoadMissions();
+	void ReadMissions();
 
 	void PluginKeyCallback(XPLMWindowID inWindowID, char inKey, XPLMKeyFlags inFlags, char inVirtualKey, void * inRefcon, int losingFocus);
 	int PluginMouseClickCallback(XPLMWindowID inWindowID, int x, int y, XPLMMouseStatus inMouse, void * inRefcon);

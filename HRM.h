@@ -92,6 +92,113 @@ static void load_cb(const char * real_path, void * ref)
 	}
 }
 
+namespace HRM
+{
+	const int wp_code = 28;
+	const int max_scenery = 100;
+
+	const float patient_weight = 75;
+	const float crew_weight = 225;
+	const float ems_equippment_weight = 350;
+
+	const int pickup_max_distance = 100;
+	const int hospital_max_distance = 500;
+
+	const float fse_min_park_brake = 0.5;
+
+	const float coord_invalid = -10000;
+
+	const int type_sling = 3;
+
+	enum Mission_State
+	{
+		State_Create_Mission,
+		State_Plan_Flight,
+		State_Pre_Flight,
+		State_Flight_1,
+		State_At_Patient,
+		State_Flight_2,
+		State_At_Hospital,
+		State_Mission_Finished,
+		State_Mission_Cancelled
+	};
+
+	enum Difficulty
+	{
+		Easy,
+		Normal,
+		Hard
+	};
+
+	enum Scenario_Position
+	{
+		Scenairo_Aircraft,
+		Scenario_ICAO
+	};
+
+	const float preflight_time_easy = 300;
+	const float preflight_time_normal = 150;
+	const float preflight_time_hard = 90;
+
+	const float flight_time_up_down_easy = 60;
+	const float flight_time_up_down_normal = 45;
+	const float flight_time_up_down_hard = 30;
+
+	const float flight_time_per_nm_easy = 60;
+	const float flight_time_per_nm_normal = 45;
+	const float flight_time_per_nm_hard = 30;
+
+	const float flight_time_search_easy = 300;
+	const float flight_time_search_normal = 180;
+	const float flight_time_search_hard = 150;
+
+	const float flight_time_sling_easy = 600;
+	const float flight_time_sling_normal = 300;
+	const float flight_time_sling_hard = 150;
+
+	//const float threshold_g_mult_easy = 1;
+	//const float threshold_g_mult_normal = 1;
+	//const float threshold_g_mult_hard = 1;
+
+	//const float threshold_g_mult_flight1 = 1.2;
+
+	const float threshold_g_mult_flight2 = 1;
+
+	const float threshold_gf_low = 0.2;
+	const float threshold_gf_med = 0.35;
+	const float threshold_gf_high = 0.5;
+
+	const float threshold_gs_low = 0.15;
+	const float threshold_gs_med = 0.35;
+	const float threshold_gs_high = 0.5;
+
+	const float threshold_gv_pos_low = 1.2;
+	const float threshold_gv_pos_med = 1.5;
+	const float threshold_gv_pos_high = 1.8;
+
+	const float threshold_gv_neg_low = 0;
+	const float threshold_gv_neg_med = 0;
+	const float threshold_gv_neg_high = 0;
+
+	const int points_speed_flight1 = 25;
+	const int points_speed_flight2 = 25;
+	const int points_g_flight2 = 50;
+
+	const float eval_g_total_factor = 1;
+
+	const float eval_g_low_factor = 1;
+	const float eval_g_med_factor = 2;
+	const float eval_g_high_factor = 3;
+
+	const float eval_flight1_nominal_speed = 120;
+	const float eval_flight2_nominal_speed = 120;
+	const float eval_flight2_sling_nominal_speed = 50;
+
+
+
+
+}
+
 double calc_distance_m(double lat1, double long1, double lat2, double long2);
 double calc_distance_nm(double lat1, double long1, double lat2, double long2);
 
