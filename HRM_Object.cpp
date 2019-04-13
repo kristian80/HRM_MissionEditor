@@ -74,18 +74,26 @@ void HRM_Object::SetPosition(double zero_latitude, double zero_longitude, double
 
 	double zero_x, zero_y, zero_z;
 	XPLMWorldToLocal(m_latitude, m_longitude, 0, &zero_x, &zero_y, &zero_z);
+	double local_x=0, local_y=0, local_z=0;
 
+	local_x = zero_x;
+	local_z = zero_z;
 	
 
 	XPLMProbeInfo_t info;
 	info.structSize = sizeof(info);
 
 	XPLMProbeResult result = XPLMProbeTerrainXYZ(m_probe, zero_x, zero_y, zero_z, &info);
-	result = XPLMProbeTerrainXYZ(m_probe, info.locationX, info.locationY, info.locationZ, &info);  // Twice for improved precision
+	//result = XPLMProbeTerrainXYZ(m_probe, zero_x, info.locationY, zero_z, &info);  // Twice for improved precision
 	
 	double local_long;
 	double local_lat;
 	double local_alt;
+
+	//zero_x = info.locationX;
+	//local_y = info.locationY + m_elevation;
+	//zero_z = info.locationZ;
+
 
 	XPLMLocalToWorld(info.locationX, info.locationY, info.locationZ, &local_lat, &local_long, &local_alt);
 	
@@ -93,25 +101,45 @@ void HRM_Object::SetPosition(double zero_latitude, double zero_longitude, double
 
 	XPLMWorldToLocal(m_latitude, m_longitude, local_alt + m_elevation, &zero_x, &zero_y, &zero_z); // incorporate elevation
 
+	local_x = zero_x;
+	local_z = zero_z;
+
+	XPLMProbeTerrainXYZ(m_probe, zero_x, zero_y, zero_z, &info); // Once again for improved precision
+
+	
+
+	local_y = info.locationY + m_elevation;
+
 
 
 	if (result == xplm_ProbeHitTerrain)
 	{
+		total_heading = zero_heading + m_heading;
+		if (total_heading > 360) total_heading -= 360;
+
+		float angle_x_0 = (1.f * asin(info.normalX) * 180.0f / M_PI);
+		float angle_y_0 = (1.f * acos(info.normalY) * 180.0f / M_PI);
+
+		float angle_x_heading = cos(total_heading * M_PI / 180.0) * angle_x_0 + sin(total_heading * M_PI / 180.0) * angle_y_0;
+		float angle_y_heading = -1*sin(total_heading * M_PI / 180.0) * angle_x_0 + cos(total_heading * M_PI / 180.0) * angle_y_0;
+
+
+		float total_pitch = angle_y_heading + m_pitch;
+		float total_roll = angle_x_heading + m_roll;
 		
-		double total_pitch = (-1.f * asin(info.normalX) * 180 / M_PI) + m_pitch;
-		double total_roll = (-1.f * acos(info.normalY) * 180 / M_PI) + m_roll;
+		//float total_pitch = (1.f * asin(x_normal) * 180.0f / M_PI) + m_pitch;
+		//float total_roll = (-1.f * acos(y_normal) * 180.0f / M_PI) + m_roll;
 
 		if (total_pitch > 360) total_pitch -= 360.f;
 		if (total_roll > 360) total_roll -= 360.f;
 
-		total_heading = zero_heading + m_heading;
-		if (total_heading > 360) total_heading -= 360;
+		
 
 		XPLMDrawInfo_t		dr;
 		dr.structSize = sizeof(dr);
-		dr.x = zero_x;
-		dr.y = zero_y;
-		dr.z = zero_z;
+		dr.x = local_x;
+		dr.y = local_y;
+		dr.z = local_z;
 		dr.pitch = total_pitch;
 		dr.heading = total_heading;
 		dr.roll = total_roll;
