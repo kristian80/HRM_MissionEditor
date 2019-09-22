@@ -19,6 +19,7 @@ public:
 	std::string m_config_path = "";
 
 	int m_scenery_number = 1;
+	std::string m_scenery_name = "";
 
 	HRM_Mission *mp_current_mission = NULL;
 	HRM_Mission *mp_last_mission = NULL;

@@ -207,6 +207,8 @@ void HRM_Editor::SaveMissions()
 	boost::property_tree::ptree pt;
 	int mission_counter = 0;
 
+	pt.put("scenery.name", m_scenery_name);
+
 	for (auto p_mission : m_street_missions)	p_mission->SaveMission(pt, mission_counter);
 	for (auto p_mission : m_urban_missions)		p_mission->SaveMission(pt, mission_counter);
 	for (auto p_mission : m_sar_missions)		p_mission->SaveMission(pt, mission_counter);
@@ -235,6 +237,9 @@ void HRM_Editor::ReadMissions()
 	{
 		int mission_counter = 0;
 		bool mission_created = true;
+
+		try { m_scenery_name = pt.get<std::string>("scenery.name"); }
+		catch (...) {}
 
 		while (mission_created)
 		{

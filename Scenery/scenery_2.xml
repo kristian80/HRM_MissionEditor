@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenery>
+    <name>Military</name>
+</scenery>
+<mission_0>
+    <name>Transporter Crashed</name>
+    <type>0</type>
+    <start_text>A transporter carrying essential goods for our troops hit a rock on the street and flipped to the side. The driver was seriously injured and needs medical attention. Your superior made a strange side note that there might be more to be rescued than just the soldier.</start_text>
+    <pickup_text>The wounded soldier is on board and we are ready to go. We should get to the hospital as quickly as possible. Make sure that his situation does not get worse by flying as careful as possible.</pickup_text>
+    <flight2_text>The patient is on board and we are on our way to the hospital. We should go as quickly, but also as smoothly as possible to ensure our patient is alright</flight2_text>
+    <failed_arr_text>We did not make it in time, but we should still pick up the dead soldier. The hospital will make arrangements for his last travel home.</failed_arr_text>
+    <failed_hosp_text>Unfortunately, our patient did not make it. Let&apos;s drop the corpse at the hospital and let them make the arrangements for his final journey back home. Looking at the barrel at the back of the cabin, you make a mental note to raise a glass for your dead comrade.</failed_hosp_text>
+    <end_text>The wounded soldier was handed over to the hospital surgeons.</end_text>
+    <sound_start>0</sound_start>
+    <sound_arr>0</sound_arr>
+    <sound_pickup>0</sound_pickup>
+    <sound_end>0</sound_end>
+    <sound_failed_arr>0</sound_failed_arr>
+    <sound_failed_hops>0</sound_failed_hops>
+    <object_0>
+        <obj_path>CDB-Library/Airport/GSE_military/truck/truck_tata_stallion.obj</obj_path>
+        <elevation>1.3</elevation>
+        <dist_x>1</dist_x>
+        <dist_y>9</dist_y>
+        <heading>-13</heading>
+        <pitch>0</pitch>
+        <roll>90</roll>
+        <is_patient>false</is_patient>
+    </object_0>
+    <object_1>
+        <obj_path>3D_people_library/Soldier_male1.obj</obj_path>
+        <elevation>0.1</elevation>
+        <dist_x>5</dist_x>
+        <dist_y>19</dist_y>
+        <heading>0</heading>
+        <pitch>-90</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+    </object_1>
+    <object_2>
+        <obj_path>CDB-Library/Cars/cars/Jeep/car_jeep2.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>3</dist_x>
+        <dist_y>27</dist_y>
+        <heading>180</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_2>
+    <object_3>
+        <obj_path>CDB-Library/Peeps/Militare_Peeps/peeps_rampAgentM2.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>4</dist_x>
+        <dist_y>20</dist_y>
+        <heading>205</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+    </object_3>
+    <object_4>
+        <obj_path>RescueX/objects/OBJ_pylone.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>30</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_4>
+    <object_5>
+        <obj_path>RescueX/objects/OBJ_pylone.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>2</dist_x>
+        <dist_y>31</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_5>
+    <object_6>
+        <obj_path>RescueX/objects/OBJ_pylone.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>4</dist_x>
+        <dist_y>32</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_6>
+    <object_7>
+        <obj_path>RescueX/objects/OBJ_pylone.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-2</dist_x>
+        <dist_y>29</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_7>
+    <object_8>
+        <obj_path>RescueX/objects/OBJ_pylone.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-2</dist_x>
+        <dist_y>1</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_8>
+    <object_9>
+        <obj_path>RescueX/objects/OBJ_pylone.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>0</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_9>
+    <object_10>
+        <obj_path>RescueX/objects/OBJ_pylone.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>2</dist_x>
+        <dist_y>-1</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_10>
+    <object_11>
+        <obj_path>RescueX/objects/OBJ_pylone.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>4</dist_x>
+        <dist_y>-2</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_11>
+    <object_12>
+        <obj_path>handyobjects/miscellaneous/camp_fire.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>1.5</dist_x>
+        <dist_y>12</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_12>
+    <object_13>
+        <obj_path>handyobjects/storage/wooden_barrel.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>4</dist_x>
+        <dist_y>5</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+    </object_13>
+    <object_14>
+        <obj_path>handyobjects/storage/wooden_barrel_on_side.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>5</dist_x>
+        <dist_y>4</dist_y>
+        <heading>23</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_14>
+    <object_15>
+        <obj_path>handyobjects/storage/wooden_barrel_on_side.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>6</dist_x>
+        <dist_y>5.3</dist_y>
+        <heading>-28</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_15>
+    <object_16>
+        <obj_path>handyobjects/storage/wooden_barrel_on_side.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>5.3</dist_x>
+        <dist_y>6.3</dist_y>
+        <heading>69</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_16>
+    <object_17>
+        <obj_path>CDB-Library/buildings/rocks/rock1.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>3</dist_x>
+        <dist_y>0</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_17>
+</mission_0>
+<mission_1>
+    <name>Comatose Soldier</name>
+    <type>1</type>
+    <start_text>A soldier suddenly got comatose and needs immediate transport to the hospital. His comrades suspect that enemy spies put toxin into his drink. They tried to counter the poison with as much fluid as possible, but utterly failed. Maybe they should have chosen water instead of whisky?</start_text>
+    <pickup_text>The wounded soldier is on board and we are ready to go. We should get to the hospital as quickly as possible. Make sure that his situation does not get worse by flying as careful as possible.</pickup_text>
+    <flight2_text>The patient is on board and we are on our way to the hospital. We should go as quickly, but also as smoothly as possible to ensure our patient is alright</flight2_text>
+    <failed_arr_text>We did not make it in time, but we should still pick up the dead soldier. The hospital will make arrangements for his last travel home.</failed_arr_text>
+    <failed_hosp_text>Unfortunately, our patient did not make it. Let&apos;s drop the corpse at the hospital and let them make the arrangements for his final journey back home.</failed_hosp_text>
+    <end_text>The wounded soldier was handed over to the hospital surgeons.</end_text>
+    <sound_start>0</sound_start>
+    <sound_arr>0</sound_arr>
+    <sound_pickup>0</sound_pickup>
+    <sound_end>0</sound_end>
+    <sound_failed_arr>0</sound_failed_arr>
+    <sound_failed_hops>0</sound_failed_hops>
+    <object_0>
+        <obj_path>3D_people_library/Soldier_male1.obj</obj_path>
+        <elevation>1.1</elevation>
+        <dist_x>-3</dist_x>
+        <dist_y>-10</dist_y>
+        <heading>0</heading>
+        <pitch>-90</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+    </object_0>
+    <object_1>
+        <obj_path>RescueX/objects/stretcher.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-3</dist_x>
+        <dist_y>-9</dist_y>
+        <heading>93</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_1>
+    <object_2>
+        <obj_path>CDB-Library/Airport/GSE/ambulance/car_ambulance3.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-2</dist_x>
+        <dist_y>-14</dist_y>
+        <heading>185</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_2>
+    <object_3>
+        <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentF1.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-4</dist_x>
+        <dist_y>-8</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_3>
+    <object_4>
+        <obj_path>3D_people_library/Soldier_male2.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-2</dist_x>
+        <dist_y>-11</dist_y>
+        <heading>137</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_4>
+    <object_5>
+        <obj_path>3D_people_library/Soldier_female2.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-4</dist_x>
+        <dist_y>-10</dist_y>
+        <heading>281</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_5>
+</mission_1>
+<mission_2>
+    <name>Soldier WIA</name>
+    <type>2</type>
+    <start_text>A soldier was WIA, being SI. His comrades carried him back to camp, but his situation is critical. We need to bring him to the MMTF ASAP!</start_text>
+    <pickup_text>The wounded soldier is on board and we are ready to go. We should get to the hospital as quickly as possible. Make sure that his situation does not get worse by flying as careful as possible.</pickup_text>
+    <flight2_text>The patient is on board and we are on our way to the hospital. We should go as quickly, but also as smoothly as possible to ensure our patient is alright</flight2_text>
+    <failed_arr_text>We did not make it in time, but we should still pick up the dead soldier. The hospital will make arrangements for his last travel home.</failed_arr_text>
+    <failed_hosp_text>Unfortunately, our patient did not make it. Let&apos;s drop the corpse at the hospital and let them make the arrangements for his final journey back home. </failed_hosp_text>
+    <end_text>The wounded soldier was handed over to the hospital surgeons.</end_text>
+    <sound_start>0</sound_start>
+    <sound_arr>0</sound_arr>
+    <sound_pickup>0</sound_pickup>
+    <sound_end>0</sound_end>
+    <sound_failed_arr>0</sound_failed_arr>
+    <sound_failed_hops>0</sound_failed_hops>
+    <object_0>
+        <obj_path>3D_people_library/Soldier_male1.obj</obj_path>
+        <elevation>0.1</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>5</dist_y>
+        <heading>0</heading>
+        <pitch>-90</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+    </object_0>
+    <object_1>
+        <obj_path>CDB-Library/Peeps/Militare_Peeps/peeps_rampAgentM2.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-1</dist_x>
+        <dist_y>6</dist_y>
+        <heading>234</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+    </object_1>
+    <object_2>
+        <obj_path>3D_people_library/Soldier_male2.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>11</dist_y>
+        <heading>21</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_2>
+    <object_3>
+        <obj_path>3D_people_library/Soldier_female2.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-1</dist_x>
+        <dist_y>10</dist_y>
+        <heading>241</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_3>
+    <object_4>
+        <obj_path>handyobjects/miscellaneous/army_tent_camo_open_both_ends.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>16</dist_y>
+        <heading>2</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_4>
+    <object_5>
+        <obj_path>handyobjects/storage/hold_all_black.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>-0.5</dist_x>
+        <dist_y>5.5</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_5>
+</mission_2>
+<mission_3>
+    <name>Soldier Recovery</name>
+    <type>3</type>
+    <start_text>A wounded soldier needs to be picked up from steep terrain.</start_text>
+    <pickup_text>The wounded soldier is on board and we are ready to go. We should get to the hospital as quickly as possible. Make sure that his situation does not get worse by flying as careful as possible.</pickup_text>
+    <flight2_text>The patient is on board and we are on our way to the hospital. We should go as quickly, but also as smoothly as possible to ensure our patient is alright</flight2_text>
+    <failed_arr_text>We did not make it in time, but we should still pick up the dead soldier. The hospital will make arrangements for his last travel home.</failed_arr_text>
+    <failed_hosp_text>Unfortunately, our patient did not make it. Let&apos;s drop the corpse at the hospital and let them make the arrangements for his final journey back home. </failed_hosp_text>
+    <end_text>The wounded soldier was handed over to the hospital surgeons.</end_text>
+    <sound_start>0</sound_start>
+    <sound_arr>0</sound_arr>
+    <sound_pickup>0</sound_pickup>
+    <sound_end>0</sound_end>
+    <sound_failed_arr>0</sound_failed_arr>
+    <sound_failed_hops>0</sound_failed_hops>
+    <object_0>
+        <obj_path>RescueX/objects/Bergwacht_Luftrettungssack.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>10</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+    </object_0>
+    <object_1>
+        <obj_path>CDB-Library/Peeps/Militare_Peeps/peeps_militareM17.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>10.5</dist_y>
+        <heading>76</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+    </object_1>
+</mission_3>

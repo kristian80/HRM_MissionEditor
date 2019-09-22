@@ -69,6 +69,7 @@ void HRMImguiWidget::buildInterface()
 
 
 	ImGui::InputInt("Scenery N r", &(pHRM->m_scenery_number), 1, 1);
+	ImGui::InputText("Scenery Name", &(pHRM->m_scenery_name));
 
 	if (ImGui::Button("Save All"))
 	{
@@ -259,6 +260,30 @@ void HRMImguiWidget::buildInterface()
 					ImGui::InputDouble("Roll", &(p_HRM_obj->m_roll), 1, 1, 0, 0);
 
 					ImGui::Checkbox("IsPatient", &(p_HRM_obj->m_is_patient));
+					ImGui::Checkbox("IsSlingload", &(p_HRM_obj->m_is_slingload));
+
+					if(p_HRM_obj->m_is_slingload == true)
+					{
+						ImGui::Checkbox("IsBambiBucket", &(p_HRM_obj->m_sling_is_bambi_bucket));
+						ImGui::Checkbox("InstancedDrawing", &(p_HRM_obj->m_sling_instanced_drawing));
+
+						ImGui::InputFloat("sling_pos_x", &(p_HRM_obj->m_sling_pos_x), 1, 1, 6, 0);
+						ImGui::InputFloat("sling_pos_y", &(p_HRM_obj->m_sling_pos_y), 1, 1, 6, 0);
+						ImGui::InputFloat("sling_pos_z", &(p_HRM_obj->m_sling_pos_z), 1, 1, 6, 0);
+						ImGui::InputFloat("sling_weight", &(p_HRM_obj->m_sling_weight), 1, 1, 6, 0);
+						ImGui::InputFloat("sling_height", &(p_HRM_obj->m_sling_height), 1, 1, 6, 0);
+						ImGui::InputFloat("sling_size_x", &(p_HRM_obj->m_sling_size_x), 1, 1, 6, 0);
+						ImGui::InputFloat("sling_size_y", &(p_HRM_obj->m_sling_size_y), 1, 1, 6, 0);
+						ImGui::InputFloat("sling_size_z", &(p_HRM_obj->m_sling_size_z), 1, 1, 6, 0);
+						ImGui::InputFloat("sling_cw_x", &(p_HRM_obj->m_sling_cw_x), 1, 1, 6, 0);
+						ImGui::InputFloat("sling_cw_y", &(p_HRM_obj->m_sling_cw_y), 1, 1, 6, 0);
+						ImGui::InputFloat("sling_cw_z", &(p_HRM_obj->m_sling_cw_z), 1, 1, 6, 0);
+						ImGui::InputFloat("sling_friction_glide", &(p_HRM_obj->m_sling_friction_glide), 1, 1, 6, 0);
+						ImGui::InputFloat("sling_friction_static", &(p_HRM_obj->m_sling_friction_static), 1, 1, 6, 0);						
+
+					}
+
+
 
 					if (ImGui::Button("Set Pos", ImVec2(180, 20)))
 					{

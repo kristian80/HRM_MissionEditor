@@ -1,3 +1,20 @@
+/*
+ * This file is part of the HRM distribution (https://github.com/kristian80/HRM).
+ * Copyright (c) 2019 Kristian80.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, version 3.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
 #include "HRM_Object.h"
 
 
@@ -6,7 +23,7 @@ void HRM_Object::CreateInstance()
 {
 	HRMDebugString("Creating Instance");
 
-	const char * drefs[] = { NULL, NULL };
+	const char* drefs[] = { NULL, NULL };
 	m_inst_ref = XPLMCreateInstance(m_obj_ref, drefs);
 }
 
@@ -67,25 +84,25 @@ void HRM_Object::SetPosition(double zero_latitude, double zero_longitude, double
 
 	double total_heading = zero_heading + m_zero_angle;
 	if (total_heading > 360) total_heading -= 360;
-	
+
 
 	m_latitude = zero_latitude + cos(total_heading * M_PI / 180) * meter_latitude * m_zero_distance;
 	m_longitude = zero_longitude + sin(total_heading * M_PI / 180) * meter_longitude * m_zero_distance;
 
 	double zero_x, zero_y, zero_z;
 	XPLMWorldToLocal(m_latitude, m_longitude, 0, &zero_x, &zero_y, &zero_z);
-	double local_x=0, local_y=0, local_z=0;
+	double local_x = 0, local_y = 0, local_z = 0;
 
 	local_x = zero_x;
 	local_z = zero_z;
-	
+
 
 	XPLMProbeInfo_t info;
 	info.structSize = sizeof(info);
 
 	XPLMProbeResult result = XPLMProbeTerrainXYZ(m_probe, zero_x, zero_y, zero_z, &info);
 	//result = XPLMProbeTerrainXYZ(m_probe, zero_x, info.locationY, zero_z, &info);  // Twice for improved precision
-	
+
 	double local_long;
 	double local_lat;
 	double local_alt;
@@ -96,19 +113,25 @@ void HRM_Object::SetPosition(double zero_latitude, double zero_longitude, double
 
 
 	XPLMLocalToWorld(info.locationX, info.locationY, info.locationZ, &local_lat, &local_long, &local_alt);
-	
+
 	//XPLMWorldToLocal(local_lat, local_long, local_alt + m_elevation, &zero_x, &zero_y, &zero_z); // incorporate elevation
 
-	XPLMWorldToLocal(m_latitude, m_longitude, local_alt + m_elevation, &zero_x, &zero_y, &zero_z); // incorporate elevation
+	XPLMWorldToLocal(m_latitude, m_longitude, local_alt + m_elevation, &zero_x, &zero_y, &zero_z); // incorporate elevation 
 
 	local_x = zero_x;
 	local_z = zero_z;
 
 	XPLMProbeTerrainXYZ(m_probe, zero_x, zero_y, zero_z, &info); // Once again for improved precision
 
-	
+
 
 	local_y = info.locationY + m_elevation;
+
+	//DEBUG:
+
+	/*local_x = info.locationX;
+	local_y = info.locationY;
+	local_z = info.locationZ;*/
 
 
 
@@ -121,19 +144,19 @@ void HRM_Object::SetPosition(double zero_latitude, double zero_longitude, double
 		float angle_y_0 = (1.f * acos(info.normalY) * 180.0f / M_PI);
 
 		float angle_x_heading = cos(total_heading * M_PI / 180.0) * angle_x_0 + sin(total_heading * M_PI / 180.0) * angle_y_0;
-		float angle_y_heading = -1*sin(total_heading * M_PI / 180.0) * angle_x_0 + cos(total_heading * M_PI / 180.0) * angle_y_0;
+		float angle_y_heading = -1 * sin(total_heading * M_PI / 180.0) * angle_x_0 + cos(total_heading * M_PI / 180.0) * angle_y_0;
 
 
 		float total_pitch = angle_y_heading + m_pitch;
 		float total_roll = angle_x_heading + m_roll;
-		
+
 		//float total_pitch = (1.f * asin(x_normal) * 180.0f / M_PI) + m_pitch;
 		//float total_roll = (-1.f * acos(y_normal) * 180.0f / M_PI) + m_roll;
 
 		if (total_pitch > 360) total_pitch -= 360.f;
 		if (total_roll > 360) total_roll -= 360.f;
 
-		
+
 
 		XPLMDrawInfo_t		dr;
 		dr.structSize = sizeof(dr);
@@ -153,7 +176,7 @@ void HRM_Object::SetPosition(double zero_latitude, double zero_longitude, double
 	}
 }
 
-void HRM_Object::GetDegreesPerMeter(double zero_latitude, double zero_longitude, double & meter_latitude, double & meter_longitude)
+void HRM_Object::GetDegreesPerMeter(double zero_latitude, double zero_longitude, double& meter_latitude, double& meter_longitude)
 {
 	double meter_per_lat = calc_distance_m(zero_latitude, zero_longitude, zero_latitude + 1, zero_longitude);
 	double meter_per_long = calc_distance_m(zero_latitude, zero_longitude, zero_latitude, zero_longitude + 1);
@@ -163,7 +186,7 @@ void HRM_Object::GetDegreesPerMeter(double zero_latitude, double zero_longitude,
 
 }
 
-void HRM_Object::SaveObject(boost::property_tree::ptree & pt, std::string mission, int & object_counter)
+void HRM_Object::SaveObject(boost::property_tree::ptree& pt, std::string mission, int& object_counter)
 {
 	std::string object = mission + "object_" + std::to_string(object_counter) + ".";
 
@@ -176,10 +199,28 @@ void HRM_Object::SaveObject(boost::property_tree::ptree & pt, std::string missio
 	pt.put(object + "roll", m_roll);
 	pt.put(object + "is_patient", m_is_patient);
 
+
+	pt.put(object + "is_slingload", m_is_slingload);
+	pt.put(object + "sling_is_bambi_bucket", m_sling_is_bambi_bucket);
+	pt.put(object + "sling_instanced_drawing", m_sling_instanced_drawing);
+	pt.put(object + "sling_pos_x", m_sling_pos_x);
+	pt.put(object + "sling_pos_y", m_sling_pos_y);
+	pt.put(object + "sling_pos_z", m_sling_pos_z);
+	pt.put(object + "sling_weight", m_sling_weight);
+	pt.put(object + "sling_height", m_sling_height);
+	pt.put(object + "sling_size_x", m_sling_size_x);
+	pt.put(object + "sling_size_y", m_sling_size_y);
+	pt.put(object + "sling_size_z", m_sling_size_z);
+	pt.put(object + "sling_cw_x", m_sling_cw_x);
+	pt.put(object + "sling_cw_y", m_sling_cw_y);
+	pt.put(object + "sling_cw_z", m_sling_cw_z);
+	pt.put(object + "sling_friction_glide", m_sling_friction_glide);
+	pt.put(object + "sling_friction_static", m_sling_friction_static);
+
 	object_counter++;
 }
 
-bool HRM_Object::ReadObject(boost::property_tree::ptree & pt, std::string mission, int & object_counter)
+bool HRM_Object::ReadObject(boost::property_tree::ptree& pt, std::string mission, int& object_counter)
 {
 	std::string object = mission + "object_" + std::to_string(object_counter) + ".";
 
@@ -202,6 +243,41 @@ bool HRM_Object::ReadObject(boost::property_tree::ptree & pt, std::string missio
 	try { m_is_patient = pt.get<bool>(object + "is_patient"); }
 	catch (...) {}
 
+
+	try { m_is_slingload = pt.get<bool>(object + "is_slingload"); }
+	catch (...) {}
+	try { m_sling_is_bambi_bucket = pt.get<bool>(object + "sling_is_bambi_bucket"); }
+	catch (...) {}
+	try { m_sling_instanced_drawing = pt.get<bool>(object + "sling_instanced_drawing"); }
+	catch (...) {}
+
+	try { m_sling_pos_x = pt.get<float>(object + "sling_pos_x"); }
+	catch (...) {}
+	try { m_sling_pos_y = pt.get<float>(object + "sling_pos_y"); }
+	catch (...) {}
+	try { m_sling_pos_z = pt.get<float>(object + "sling_pos_z"); }
+	catch (...) {}
+	try { m_sling_weight = pt.get<float>(object + "sling_weight"); }
+	catch (...) {}
+	try { m_sling_height = pt.get<float>(object + "sling_height"); }
+	catch (...) {}
+	try { m_sling_size_x = pt.get<float>(object + "sling_size_x"); }
+	catch (...) {}
+	try { m_sling_size_y = pt.get<float>(object + "sling_size_y"); }
+	catch (...) {}
+	try { m_sling_size_z = pt.get<float>(object + "sling_size_z"); }
+	catch (...) {}
+	try { m_sling_cw_x = pt.get<float>(object + "sling_cw_x"); }
+	catch (...) {}
+	try { m_sling_cw_y = pt.get<float>(object + "sling_cw_y"); }
+	catch (...) {}
+	try { m_sling_cw_z = pt.get<float>(object + "sling_cw_z"); }
+	catch (...) {}
+	try { m_sling_friction_glide = pt.get<float>(object + "sling_friction_glide"); }
+	catch (...) {}
+	try { m_sling_friction_static = pt.get<float>(object + "sling_friction_static"); }
+	catch (...) {}
+
 	object_counter++;
 
 	return true;
@@ -214,6 +290,7 @@ bool HRM_Object::LoadObject()
 	if (m_obj_ref || m_probe) DestroyInstance();
 
 	XPLMLookupObjects(m_obj_path.c_str(), 0, 0, load_cb, &m_obj_ref);
+	if (m_obj_ref == NULL)	m_obj_ref = XPLMLoadObject(m_obj_path.c_str());
 
 	if (!m_obj_ref)
 	{
