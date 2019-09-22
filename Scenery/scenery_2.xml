@@ -924,3 +924,45 @@
         <sling_friction_static>3</sling_friction_static>
     </object_2>
 </mission_3>
+<mission_4>
+    <name>Cargo Recovery</name>
+    <type>3</type>
+    <start_text>One of our C-130 lost a container full with whiskey bottles, probably because the cargo crew was so drunk they didn’t realize they were sleeping on the cargo door handle. Well, obviously this is a serious emergency and you are assigned to recover the precious cargo as quickly as possible.</start_text>
+    <pickup_text>The container is hooked up and we are ready to go. We should get to the camp as quickly as possible. Make sure that even more bottles get broken by flying as careful as possible.</pickup_text>
+    <flight2_text>The patient is on board and we are on our way to the hospital. We should go as quickly, but also as smoothly as possible to ensure our patient is alright</flight2_text>
+    <failed_arr_text>We did not make it in time, but chances are that good that the expiry date on the whiskey was faked anyways.</failed_arr_text>
+    <failed_hosp_text>We did not make it in time, but chances are that good that the expiry date on the whiskey was faked anyways.</failed_hosp_text>
+    <end_text>Our cargo was delivered to the camp. Only a few bottles survived, but still better than nothing.</end_text>
+    <sound_start>0</sound_start>
+    <sound_arr>0</sound_arr>
+    <sound_pickup>0</sound_pickup>
+    <sound_end>0</sound_end>
+    <sound_failed_arr>0</sound_failed_arr>
+    <sound_failed_hops>0</sound_failed_hops>
+    <object_0>
+        <obj_path>RD_Library/Buildings/container_10m_1OLD2.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>0</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+        <is_slingload>true</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>5</sling_pos_x>
+        <sling_pos_y>3</sling_pos_y>
+        <sling_pos_z>-1.5</sling_pos_z>
+        <sling_weight>1000</sling_weight>
+        <sling_height>3</sling_height>
+        <sling_size_x>10</sling_size_x>
+        <sling_size_y>3</sling_size_y>
+        <sling_size_z>3</sling_size_z>
+        <sling_cw_x>0.9</sling_cw_x>
+        <sling_cw_y>0.9</sling_cw_y>
+        <sling_cw_z>0.9</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
+    </object_0>
+</mission_4>
