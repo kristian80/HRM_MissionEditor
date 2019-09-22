@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<scenery>
+    <name>Civilian</name>
+</scenery>
 <mission_0>
     <name>Frontal Crash</name>
     <type>0</type>
@@ -23,6 +26,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_0>
     <object_1>
         <obj_path>RescueX/cars/Crashed_Kia_Picanto2.obj</obj_path>
@@ -33,6 +52,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_1>
     <object_2>
         <obj_path>RescueX/cars/FW_BF_Karlsruhe_HLF.obj</obj_path>
@@ -43,6 +78,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_2>
     <object_3>
         <obj_path>RescueX/objects/OBJ_Faltdreieck_Leuchte.obj</obj_path>
@@ -53,6 +104,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_3>
     <object_4>
         <obj_path>RescueX/objects/OBJ_Faltdreieck_Leuchte.obj</obj_path>
@@ -63,6 +130,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_4>
     <object_5>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_AirMarshallM5_vigili.obj</obj_path>
@@ -73,6 +156,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_5>
     <object_6>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_rarotonga_airmarshall2.obj</obj_path>
@@ -83,6 +182,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_6>
     <object_7>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_rarotonga_airmarshall3.obj</obj_path>
@@ -93,6 +208,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_7>
     <object_8>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_fireman10.obj</obj_path>
@@ -103,6 +234,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_8>
     <object_9>
         <obj_path>CDB-Library/Cars/cars/Cadilac/car_cadillac1959.obj</obj_path>
@@ -113,6 +260,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_9>
     <object_10>
         <obj_path>3D_people_library/man_brown_top.obj</obj_path>
@@ -123,6 +286,22 @@
         <pitch>-90</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_10>
 </mission_0>
 <mission_1>
@@ -149,6 +328,22 @@
         <pitch>0</pitch>
         <roll>91</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_0>
     <object_1>
         <obj_path>CDB-Library/Cars/camion/truck_UPS_baule.obj</obj_path>
@@ -159,6 +354,22 @@
         <pitch>0</pitch>
         <roll>90</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_1>
     <object_2>
         <obj_path>CDB-Library/Flora_Fauna/Birds_pets/fauna_duck.obj</obj_path>
@@ -169,6 +380,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_2>
     <object_3>
         <obj_path>RescueX/cars/FW_BF_Karlsruhe_HLF.obj</obj_path>
@@ -179,6 +406,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_3>
     <object_4>
         <obj_path>RescueX/cars/FW_FF_Stuehlingen_Stromanhaenger.obj</obj_path>
@@ -189,6 +432,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_4>
     <object_5>
         <obj_path>pm_library/FirePit.obj</obj_path>
@@ -199,6 +458,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_5>
     <object_6>
         <obj_path>RescueX/cars/ADAC_Masterlift.obj</obj_path>
@@ -209,6 +484,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_6>
     <object_7>
         <obj_path>RescueX/cars/NEF_Passat_sb1099_lit_open.obj</obj_path>
@@ -219,6 +510,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_7>
     <object_8>
         <obj_path>RescueX/objects/OBJ_Faltdreieck_Leuchte.obj</obj_path>
@@ -229,6 +536,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_8>
     <object_9>
         <obj_path>RescueX/objects/OBJ_pylone.obj</obj_path>
@@ -239,6 +562,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_9>
     <object_10>
         <obj_path>RescueX/objects/OBJ_pylone.obj</obj_path>
@@ -249,6 +588,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_10>
     <object_11>
         <obj_path>RescueX/objects/OBJ_pylone.obj</obj_path>
@@ -259,6 +614,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_11>
     <object_12>
         <obj_path>RescueX/objects/OBJ_pylone.obj</obj_path>
@@ -269,6 +640,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_12>
     <object_13>
         <obj_path>RescueX/objects/OBJ_pylone.obj</obj_path>
@@ -279,6 +666,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_13>
     <object_14>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentM2.obj</obj_path>
@@ -289,6 +692,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_14>
     <object_15>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentM4.obj</obj_path>
@@ -299,6 +718,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_15>
     <object_16>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentM8.obj</obj_path>
@@ -309,6 +744,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_16>
     <object_17>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_rarotonga_airmarshall2.obj</obj_path>
@@ -319,6 +770,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_17>
     <object_18>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_rarotonga_airmarshall4.obj</obj_path>
@@ -329,6 +796,22 @@
         <pitch>19</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_18>
     <object_19>
         <obj_path>CDB-Library/Peeps/crew/peeps_crewF2.obj</obj_path>
@@ -339,6 +822,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_19>
     <object_20>
         <obj_path>3D_people_library/man_brown_top.obj</obj_path>
@@ -349,6 +848,22 @@
         <pitch>-90</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_20>
 </mission_1>
 <mission_2>
@@ -375,6 +890,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_0>
     <object_1>
         <obj_path>pm_library/Honda_Goldwing.obj</obj_path>
@@ -385,6 +916,22 @@
         <pitch>90</pitch>
         <roll>4</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_1>
     <object_2>
         <obj_path>CDB-Library/Cars/cars/CDB_cars/car_Chuuk_Police.obj</obj_path>
@@ -395,6 +942,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_2>
     <object_3>
         <obj_path>3D_people_library/police_officer.obj</obj_path>
@@ -405,6 +968,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_3>
     <object_4>
         <obj_path>3D_people_library/policeman6.obj</obj_path>
@@ -415,6 +994,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_4>
     <object_5>
         <obj_path>pm_library/Mini_Cooper.obj</obj_path>
@@ -425,6 +1020,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_5>
     <object_6>
         <obj_path>CDB-Library/Cars/cars/Suzuki_Subaru/car_alto.obj</obj_path>
@@ -435,6 +1046,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_6>
     <object_7>
         <obj_path>CDB-Library/Peeps/polynesian/eua/eua_peepsF1.obj</obj_path>
@@ -445,6 +1072,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_7>
     <object_8>
         <obj_path>pm_library/USAmbulance.obj</obj_path>
@@ -455,6 +1098,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_8>
     <object_9>
         <obj_path>3D_people_library/biker3.obj</obj_path>
@@ -465,6 +1124,22 @@
         <pitch>-90</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_9>
     <object_10>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentM5.obj</obj_path>
@@ -475,6 +1150,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_10>
     <object_11>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentM2.obj</obj_path>
@@ -485,6 +1176,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_11>
 </mission_2>
 <mission_3>
@@ -511,6 +1218,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_0>
     <object_1>
         <obj_path>CDB-Library/Airport/GSE/ambulance/car_ambulance3.obj</obj_path>
@@ -521,6 +1244,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_1>
     <object_2>
         <obj_path>3D_people_library/woman_purple_top.obj</obj_path>
@@ -531,6 +1270,22 @@
         <pitch>270</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_2>
     <object_3>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp1.obj</obj_path>
@@ -541,6 +1296,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_3>
     <object_4>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp3.obj</obj_path>
@@ -551,6 +1322,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_4>
     <object_5>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentM3.obj</obj_path>
@@ -561,6 +1348,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_5>
     <object_6>
         <obj_path>3D_people_library/girl.obj</obj_path>
@@ -571,6 +1374,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_6>
 </mission_3>
 <mission_4>
@@ -597,6 +1416,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_0>
     <object_1>
         <obj_path>RescueX/cars/Crashed_Opel_Insignia.obj</obj_path>
@@ -607,6 +1442,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_1>
     <object_2>
         <obj_path>RescueX/cars/NEF_Passat_sb1099_lit_open.obj</obj_path>
@@ -617,6 +1468,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_2>
     <object_3>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentM6.obj</obj_path>
@@ -627,6 +1494,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_3>
     <object_4>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentM5.obj</obj_path>
@@ -637,6 +1520,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_4>
     <object_5>
         <obj_path>3D_people_library/man_standing_24.obj</obj_path>
@@ -647,6 +1546,22 @@
         <pitch>-90</pitch>
         <roll>2</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_5>
     <object_6>
         <obj_path>3D_people_library/policeman7.obj</obj_path>
@@ -657,6 +1572,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_6>
     <object_7>
         <obj_path>3D_people_library/policeman_1_walking.obj</obj_path>
@@ -667,6 +1598,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_7>
     <object_8>
         <obj_path>CDB-Library/Peeps/Botswana/botswaKalahariF.obj</obj_path>
@@ -677,6 +1624,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_8>
     <object_9>
         <obj_path>RescueX/cars/Polizei_FuStw_01_lit_open.obj</obj_path>
@@ -687,6 +1650,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_9>
 </mission_4>
 <mission_5>
@@ -713,6 +1692,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_0>
     <object_1>
         <obj_path>RescueX/objects/stretcher.obj</obj_path>
@@ -723,6 +1718,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_1>
     <object_2>
         <obj_path>CDB-Library/Cars/cars/Daihatsu_Mitsubish_Datsun_nissan/car_L200_new_police.obj</obj_path>
@@ -733,6 +1744,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_2>
     <object_3>
         <obj_path>3D_people_library/policeman_1_walking.obj</obj_path>
@@ -743,6 +1770,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_3>
     <object_4>
         <obj_path>3D_people_library/police_officer.obj</obj_path>
@@ -753,6 +1796,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_4>
     <object_5>
         <obj_path>3D_people_library/policeman4.obj</obj_path>
@@ -763,6 +1822,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_5>
     <object_6>
         <obj_path>3D_people_library/policeman6.obj</obj_path>
@@ -773,6 +1848,22 @@
         <pitch>-90</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_6>
     <object_7>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp3.obj</obj_path>
@@ -783,6 +1874,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_7>
     <object_8>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentF1.obj</obj_path>
@@ -793,6 +1900,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_8>
     <object_9>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentM8.obj</obj_path>
@@ -803,6 +1926,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_9>
 </mission_5>
 <mission_6>
@@ -829,6 +1968,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_0>
 </mission_6>
 <mission_7>
@@ -855,6 +2010,22 @@
         <pitch>90</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_0>
     <object_1>
         <obj_path>3D_people_library/biker2.obj</obj_path>
@@ -865,6 +2036,22 @@
         <pitch>-90</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_1>
     <object_2>
         <obj_path>CDB-Library/Peeps/airMarshall/peeps_airstaff19.obj</obj_path>
@@ -875,6 +2062,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_2>
     <object_3>
         <obj_path>CDB-Library/buildings/rocks/rock1.obj</obj_path>
@@ -885,6 +2088,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_3>
 </mission_7>
 <mission_8>
@@ -911,6 +2130,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_0>
     <object_1>
         <obj_path>CDB-Library/Peeps/travellers/peeps_TM_seat1.obj</obj_path>
@@ -921,6 +2156,22 @@
         <pitch>-10</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_1>
     <object_2>
         <obj_path>handyobjects/gatesandfences/boulder_group_dark.obj</obj_path>
@@ -931,6 +2182,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_2>
 </mission_8>
 <mission_9>
@@ -957,6 +2224,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_0>
     <object_1>
         <obj_path>handyobjects/miscellaneous/dome_tent_III_open.obj</obj_path>
@@ -967,6 +2250,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_1>
     <object_2>
         <obj_path>CDB-Library/Peeps/polynesian/fuamotu/fuamotu_peepsgirl.obj</obj_path>
@@ -977,6 +2276,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>true</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_2>
     <object_3>
         <obj_path>CDB-Library/Airport/luggage/rimatara_mala1.obj</obj_path>
@@ -987,6 +2302,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_3>
     <object_4>
         <obj_path>handyobjects/miscellaneous/camp_fire.obj</obj_path>
@@ -997,6 +2328,22 @@
         <pitch>0</pitch>
         <roll>0</roll>
         <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
     </object_4>
 </mission_9>
 <mission_10>
@@ -1014,4 +2361,82 @@
     <sound_end>0</sound_end>
     <sound_failed_arr>0</sound_failed_arr>
     <sound_failed_hops>0</sound_failed_hops>
+    <object_0>
+        <obj_path>./Resources/plugins/HRM/flare_5.obj</obj_path>
+        <elevation>1</elevation>
+        <dist_x>0.4799999892711639</dist_x>
+        <dist_y>1.399999976158142</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
+    </object_0>
+    <object_1>
+        <obj_path>CDB-Library/Peeps/airMarshall/peeps_ramp_agentM4.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>1</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>false</is_patient>
+        <is_slingload>false</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0</sling_pos_y>
+        <sling_pos_z>0</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0</sling_height>
+        <sling_size_x>0</sling_size_x>
+        <sling_size_y>0</sling_size_y>
+        <sling_size_z>0</sling_size_z>
+        <sling_cw_x>0</sling_cw_x>
+        <sling_cw_y>0</sling_cw_y>
+        <sling_cw_z>0</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
+    </object_1>
+    <object_2>
+        <obj_path>RescueX/objects/Bergwacht_Luftrettungssack.obj</obj_path>
+        <elevation>0</elevation>
+        <dist_x>0</dist_x>
+        <dist_y>0</dist_y>
+        <heading>0</heading>
+        <pitch>0</pitch>
+        <roll>0</roll>
+        <is_patient>true</is_patient>
+        <is_slingload>true</is_slingload>
+        <sling_is_bambi_bucket>false</sling_is_bambi_bucket>
+        <sling_instanced_drawing>true</sling_instanced_drawing>
+        <sling_pos_x>0</sling_pos_x>
+        <sling_pos_y>0.9299995</sling_pos_y>
+        <sling_pos_z>0.18</sling_pos_z>
+        <sling_weight>100</sling_weight>
+        <sling_height>0.9000003</sling_height>
+        <sling_size_x>0.5</sling_size_x>
+        <sling_size_y>2</sling_size_y>
+        <sling_size_z>0.5</sling_size_z>
+        <sling_cw_x>0.9</sling_cw_x>
+        <sling_cw_y>0.9</sling_cw_y>
+        <sling_cw_z>0.9</sling_cw_z>
+        <sling_friction_glide>0.35</sling_friction_glide>
+        <sling_friction_static>3</sling_friction_static>
+    </object_2>
 </mission_10>
