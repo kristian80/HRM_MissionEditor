@@ -214,6 +214,11 @@ void HRM_Editor::SaveMissions()
 	for (auto p_mission : m_sar_missions)		p_mission->SaveMission(pt, mission_counter);
 	for (auto p_mission : m_sling_missions)		p_mission->SaveMission(pt, mission_counter);
 
+	for (auto p_mission : m_street_fire_missions)	p_mission->SaveMission(pt, mission_counter);
+	for (auto p_mission : m_urban_fire_missions)	p_mission->SaveMission(pt, mission_counter);
+	for (auto p_mission : m_sar_fire_missions)		p_mission->SaveMission(pt, mission_counter);
+	for (auto p_mission : m_sling_fire_missions)	p_mission->SaveMission(pt, mission_counter);
+
 	boost::property_tree::write_xml(m_scenery_file + "_" + std::to_string(m_scenery_number) + ".xml", pt, std::locale(), settings);
 }
 
@@ -253,6 +258,10 @@ void HRM_Editor::ReadMissions()
 				else if (p_mission->m_mission_type == 1)		m_urban_missions.push_back(p_mission);
 				else if (p_mission->m_mission_type == 2)		m_sar_missions.push_back(p_mission);
 				else if (p_mission->m_mission_type == 3)		m_sling_missions.push_back(p_mission);
+				else if (p_mission->m_mission_type == 4)		m_street_fire_missions.push_back(p_mission);
+				else if (p_mission->m_mission_type == 5)		m_urban_fire_missions.push_back(p_mission);
+				else if (p_mission->m_mission_type == 6)		m_sar_fire_missions.push_back(p_mission);
+				else if (p_mission->m_mission_type == 7)		m_sling_fire_missions.push_back(p_mission);
 				else delete p_mission;
 			}
 			else delete p_mission;

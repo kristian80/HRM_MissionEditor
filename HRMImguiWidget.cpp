@@ -118,6 +118,34 @@ void HRMImguiWidget::buildInterface()
 		selected_mission_type = 3;
 	}
 
+	// Fire
+	if (ImGui::RadioButton("Street Fire", selected_mission_type == 4))
+	{
+		p_mission_vector = &(pHRM->m_street_fire_missions);
+		selected_mission_type = 4;
+	}
+
+	if (ImGui::RadioButton("Urban Fire", selected_mission_type == 5))
+	{
+		p_mission_vector = &(pHRM->m_urban_fire_missions);
+		selected_mission_type = 5;
+	}
+
+	if (ImGui::RadioButton("Outdoor Fire", selected_mission_type == 6))
+	{
+		p_mission_vector = &(pHRM->m_sar_fire_missions);
+		selected_mission_type = 6;
+	}
+
+	if (ImGui::RadioButton("Mountain Fire", selected_mission_type == 7))
+	{
+		p_mission_vector = &(pHRM->m_sling_fire_missions);
+		selected_mission_type = 7;
+	}
+
+
+	// End Fire
+
 	if (p_mission_vector->size() > 0)
 	{
 		const char* mission_listbox_items[1024];

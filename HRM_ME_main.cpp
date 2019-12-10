@@ -60,9 +60,9 @@ static float InitPlugin(float elapsed, float elapsed_sim, int counter, void * re
 PLUGIN_API int XPluginStart(char * name, char * sig, char * desc)
 {
 	HRMDebugString("HRM: Startup.\n");
-	strcpy(name, "HRM");
-	strcpy(sig, "k80.HRM");
-	strcpy(desc, "The nagging co-pilot");
+	strcpy(name, "HRM ME");
+	strcpy(sig, "k80.HRM_MR");
+	strcpy(desc, "MRF Mission Editor");
 
 	hrm_output_file.open("HRMLog.txt");
 

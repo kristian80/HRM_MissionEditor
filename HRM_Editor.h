@@ -36,6 +36,12 @@ public:
 	std::vector<HRM_Mission *> m_sar_missions;
 	std::vector<HRM_Mission *> m_sling_missions;
 
+
+	std::vector<HRM_Mission*> m_street_fire_missions;
+	std::vector<HRM_Mission*> m_urban_fire_missions;
+	std::vector<HRM_Mission*> m_sar_fire_missions;
+	std::vector<HRM_Mission*> m_sling_fire_missions;
+
 	
 
 	bool m_initialized = false;
